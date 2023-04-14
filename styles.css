@@ -35,12 +35,24 @@ p{
     font-size: 1.2em;
     line-height: 1.5;
 }
-#ingredients{
+#ingredients, #steps{
     width: 60%;
     background-color: gold;
     padding: 2em;
     border-radius: 1em;
 }
+#ingredients h2, #steps h2{
+    margin:0;
+}
 #ingredients ul li{
     padding:0.5em;
+}
+#steps{
+    width: 100%;
+    background-color: lightblue;
+    margin-top: 1em;
+}
+#steps ol li{
+    padding:0.5em;
+    line-height: 1.5;
 }
